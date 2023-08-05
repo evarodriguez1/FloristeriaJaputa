@@ -18,6 +18,11 @@ public class Product {
     @Getter @Setter
     private double price;
 
+    @ManyToOne
+    @JoinColumn(name = "ticket_id")
+    private Ticket ticket;
+
+    //constructores
     public Product() {}
 
     public Product(String name, double price) {
