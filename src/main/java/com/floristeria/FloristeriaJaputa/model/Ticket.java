@@ -1,5 +1,5 @@
-package com.floristeria.FloristeriaJaputa.model;
 
+package com.floristeria.FloristeriaJaputa.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "tickets")
-public class Ticket<Product> {
+public class Ticket {
 
     @Getter
     @Id
@@ -39,4 +39,5 @@ public class Ticket<Product> {
     }
 
 }
+
 

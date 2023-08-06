@@ -1,3 +1,4 @@
+
 package com.floristeria.FloristeriaJaputa.model;
 
 import lombok.Getter;
@@ -8,7 +9,7 @@ import javax.persistence.*;
 @Entity
 public class Product {
 
-    @Getter @Setter
+    @Getter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -31,3 +32,5 @@ public class Product {
     }
 
 }
+
+
