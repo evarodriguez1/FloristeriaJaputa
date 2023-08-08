@@ -26,6 +26,10 @@ public class Ticket {
     @OneToMany(mappedBy = "ticket", cascade = CascadeType.ALL)
     private List<Product> products;
 
+    @Getter @Setter
+    @Column(name = "total")
+    private double total;
+
     // Constructor sin parámetros (obligatorio para JPA)
     public Ticket() {
         this.purchaseDate = LocalDateTime.now();

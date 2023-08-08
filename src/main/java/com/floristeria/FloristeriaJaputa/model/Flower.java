@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "flowers")
-public class Flower {
+public class Flower implements ProductInterface {
 
     @Getter
     @Id

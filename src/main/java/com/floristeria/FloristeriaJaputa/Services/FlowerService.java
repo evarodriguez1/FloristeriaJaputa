@@ -1,10 +1,12 @@
 package com.floristeria.FloristeriaJaputa.Services;
 
 import com.floristeria.FloristeriaJaputa.model.Flower;
+import com.floristeria.FloristeriaJaputa.model.Product;
 import com.floristeria.FloristeriaJaputa.repositories.FlowerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collection;
 import java.util.List;
 
 @Service

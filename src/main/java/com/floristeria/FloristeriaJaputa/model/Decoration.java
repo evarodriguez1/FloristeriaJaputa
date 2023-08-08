@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "decorations")
 
-public class Decoration {
+public class Decoration implements ProductInterface {
     @Getter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
